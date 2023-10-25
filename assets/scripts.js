@@ -175,7 +175,7 @@ var optionsCircle5 = {
   stroke: {
     lineCap: "round",
   },
-  series: [71, 72, 0, 0],
+  series: [71, 72, 1, 1],
   labels: ["Request-html", "Pytube", "Scrap", "Grab"],
   legend: {
     show: true,
