@@ -255,7 +255,7 @@ var optionsBar2 = {
   series: [
     {
       name: "Request-HTML",
-      data: [0],
+      data: [1],
     },
     {
       name: "Pytube",
