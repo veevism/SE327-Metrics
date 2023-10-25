@@ -150,6 +150,48 @@ var chartCircle4 = new ApexCharts(
 );
 chartCircle4.render();
 
+var optionsCircle5 = {
+  chart: {
+    type: "radialBar",
+    height: 350,
+    width: 380,
+  },
+  plotOptions: {
+    radialBar: {
+      size: undefined,
+      inverseOrder: true,
+      hollow: {
+        margin: 5,
+        size: "48%",
+        background: "transparent",
+      },
+      track: {
+        show: false,
+      },
+      startAngle: -180,
+      endAngle: 180,
+    },
+  },
+  stroke: {
+    lineCap: "round",
+  },
+  series: [78, 92, 100, 91],
+  labels: ["Request-html", "Pytube", "Scrap", "Grab"],
+  legend: {
+    show: true,
+    floating: true,
+    position: "right",
+    offsetX: -80,
+    offsetY: 120,
+  },
+};
+
+var chartCircle5 = new ApexCharts(
+  document.querySelector("#radialBarBottom2"),
+  optionsCircle5
+);
+chartCircle5.render();
+
 var optionsBar = {
   chart: {
     type: "bar",
@@ -241,51 +283,3 @@ var chartBar = new ApexCharts(
 );
 
 chartBar.render();
-
-// var optionsArea = {
-//   chart: {
-//     height: 380,
-//     type: "area",
-//     stacked: false,
-//   },
-//   stroke: {
-//     curve: "straight",
-//   },
-//   series: [
-//     {
-//       name: "Music",
-//       data: [11, 15, 26, 20, 33, 27],
-//     },
-//     {
-//       name: "Photos",
-//       data: [32, 33, 21, 42, 19, 32],
-//     },
-//     {
-//       name: "Files",
-//       data: [20, 39, 52, 11, 29, 43],
-//     },
-//   ],
-//   xaxis: {
-//     categories: [
-//       "2011 Q1",
-//       "2011 Q2",
-//       "2011 Q3",
-//       "2011 Q4",
-//       "2012 Q1",
-//       "2012 Q2",
-//     ],
-//   },
-//   tooltip: {
-//     followCursor: true,
-//   },
-//   fill: {
-//     opacity: 1,
-//   },
-// };
-
-// var chartArea = new ApexCharts(
-//   document.querySelector("#areachart"),
-//   optionsArea
-// );
-
-// chartArea.render();
