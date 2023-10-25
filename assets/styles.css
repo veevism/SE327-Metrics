@@ -25,6 +25,19 @@ body {
   color: #F3F4FA;
 }
 
+.white {
+  color: #F3F4FA;
+}
+
+.center {
+  text-align: center;
+  color: #F3F4FA;
+}
+
+li {
+  list-style-type: none;
+}
+
 .content-area {
   max-width: 1280px;
   margin: 0 auto;
