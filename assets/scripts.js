@@ -340,14 +340,14 @@ var optionsCircle4 = {
   stroke: {
     lineCap: "round",
   },
-  series: [71, 63, 77],
-  labels: ["June", "May", "April"],
+  series: [78, 92, 100, 91],
+  labels: ["Request-html", "Pytube", "Scrabpy", "Grab"],
   legend: {
     show: true,
     floating: true,
     position: "right",
-    offsetX: 70,
-    offsetY: 240,
+    offsetX: -80,
+    offsetY: 120,
   },
 };
 
